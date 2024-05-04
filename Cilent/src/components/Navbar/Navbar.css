@@ -1,0 +1,14 @@
+.logo {
+  margin-right: 100px;
+}
+.logo img {
+  height: 80px;
+  width: 125px;
+}
+.search {
+  height: 50px;
+}
+
+.search .inp {
+  width: 400px;
+}
