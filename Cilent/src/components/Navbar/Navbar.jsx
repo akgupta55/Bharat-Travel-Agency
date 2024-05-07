@@ -1,10 +1,11 @@
 import logo from "/Project_Logo.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -19,7 +20,9 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div className="logo">
-              <img src={logo} alt="logo" />
+              <Link to="/">
+                <img src={logo} alt="logo" />
+              </Link>
             </div>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item2 nav-item">
@@ -41,9 +44,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item3 nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/login"
+                >
                   Login
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

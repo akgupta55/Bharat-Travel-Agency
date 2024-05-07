@@ -1,14 +1,10 @@
-// import { Route } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Headers from "./components/Headers/Headers";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Headers />} />
-      </Routes>
+      <Layout />
     </>
   );
 }

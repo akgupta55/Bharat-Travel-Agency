@@ -1,0 +1,29 @@
+.sing-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 9%;
+}
+
+.sing-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1%;
+  width: 30%;
+  gap: 20px;
+  box-shadow: rgb(225, 247, 32) 0px 1px 4px;
+}
+
+.form-group input {
+  width: 120%;
+}
